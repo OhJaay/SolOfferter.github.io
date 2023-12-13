@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SolOfferter | Hitta rätt solcellsleverantör</title>
+    <meta name="description" content="SolOfferter förenklar resan mot solenergilösningar för fastighetsägare. Koppla samman med pålitliga solenergileverantörer, skräddarsy lösningar och säkerställ högkvalitativa och kostnadseffektiva solcellsanläggningar. Gör övergången till solenergi smidig och hållbar. Spara på elkostnaderna.">
+    <meta name="keywords" content="sol offerter, solceller, solenergi, hållbar energi, solcellsanläggningar, pålitliga leverantörer, elkostnader, solenergilösningar">
+    <meta name="author" content="SolOfferter">
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <style>
+        body {
+            font-family: 'Montserrat', Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #333;
+        }
+
+        header {
+            background-color: #3498db;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        header img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+
+        header h1 {
+            margin-top: 10px;
+            font-size: 24px;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 20px;
+        }
+
+        .left-content {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .left-content h2 {
+            color: #3498db;
+        }
+
+        .left-content p {
+            margin-bottom: 20px;
+        }
+
+        .contact-form {
+            flex: 0 0 48%;
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #ddd;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .options {
+            margin-bottom: 20px;
+        }
+
+        .options label {
+            margin-right: 20px;
+            font-weight: bold;
+        }
+
+        .form-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .form-row input {
+            flex: 0 0 48%;
+        }
+
+        .form-row textarea {
+            width: 100%;
+        }
+
+        button {
+            background-color: #3498db;
+            color: white;
+            padding: 15px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+
+        p {
+            color: #555;
+        }
+
+        .image {
+            flex: 0 0 48%;
+        }
+
+        .image img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        @media (max-width: 768px) {
+            .left-content {
+                flex: 1;
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+
+            .contact-form {
+                flex: 1;
+            }
+
+            .image {
+                flex: 1;
+            }
+        }
+
+        @media (max-width: 768px) {
+        main {
+            flex-direction: column;
+        }
+
+        .left-content,
+        .contact-form,
+        .image {
+            flex: 1;
+            margin-right: 0;
+            margin-bottom: 20px;
+        }
+    }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="images/logga.jpg" alt="Your Logo">
+        <h1>Solceller - Hållbar Energi</h1>
+    </header>
+
+    <main>
+        
+        <div class="left-content">
+            <h2>Vi hjälper dig att hitta rätt leverantör.</h2>
+            <p>
+                Vi på SolOfferter förenklar resan mot solenergilösningar för fastighetsägare. Vi kopplar samman er med pålitliga solenergileverantörer, skräddarsyr lösningar och säkerställer högkvalitativa och kostnadseffektiva solcellsanläggningar.
+                Vår målsättning är att göra övergången till solenergi smidig och hållbar samtidigt som ni sparar på elkostnaderna.
+            </p>
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <img src="images/longsolar.jpg" alt="Solceller på taket" style="transform: rotate(-90deg); width: 50%; max-width: 250px;">
+            </div>
+        </div>
+        
+        
+        
+        
+
+        <div class="contact-form">
+            <h2>Kontaktformulär</h2>
+            <form action="https://formspree.io/f/xzblnnpv" method="POST">
+                <div class="form-row">
+                    <input type="text" id="first-name" name="first-name" placeholder="Förnamn" required>
+                    <input type="text" id="last-name" name="last-name" placeholder="Efternamn" required>
+                </div>
+
+                <div class="form-row">
+                    <input type="text" id="address" name="address" placeholder="Adress" required>
+                    <input type="text" id="postal-code" name="postal-code" placeholder="Postnummer" required>
+                </div>
+
+                <div class="form-row">
+                    <input type="tel" id="phone" name="phone" placeholder="Telefonnummer" required>
+                    <input type="email" id="email" name="email" placeholder="Mailadress" required>
+                </div>
+
+                <label for="project-message">Meddelande om projektet:</label>
+                <textarea id="project-message" name="project-message" required></textarea>
+
+                <button type="submit">Skicka meddelande</button>
+            </form>
+        </div>
+
+        <div class="image">
+            <img src="images/solar-panel2.jpg" alt="Solar Panels">
+        </div>
+    </main>
+
+    
+    <main>
+        <div class="left-content">
+            <h2>Varför Solceller?</h2>
+            <p>
+                Solen erbjuder en oändlig och miljövänlig energikälla. Genom att installera solpaneler bidrar du aktivt till övergången mot en mer hållbar energiframtid och minskar vårt beroende av fossila bränslen. Solenergi är ren och genererar inga skadliga utsläpp under elproduktionen, vilket gör den till ett ansvarsfullt val för miljön. Dessutom är solcellsanläggningen ljudlös och påverkar inte din omgivning negativt, vilket skapar en harmonisk och hållbar energilösning.
+            </p>
+        </div>
+
+</body>
+</html>
